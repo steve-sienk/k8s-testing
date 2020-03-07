@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pikachus-service
+spec:
+  type: LoadBalancer
+  loadBalancerIP: 35.212.180.77
+  selector:
+    app: helloworld
+  ports:
+    - port: 80
+      targetPort: 3000
