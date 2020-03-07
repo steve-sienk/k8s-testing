@@ -4,7 +4,7 @@ metadata:
   name: pikachus-service
 spec:
   type: LoadBalancer
-  loadBalancerIP: 35.212.180.77
+  loadBalancerIP: 35.224.100.84
   selector:
     app: helloworld
   ports:
